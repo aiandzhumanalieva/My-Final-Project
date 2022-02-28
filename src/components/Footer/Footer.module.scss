@@ -1,0 +1,21 @@
+.footer {
+	margin-top: 75px;
+	background: rgba(201, 173, 198, 1);
+
+	ul {
+		display: flex;
+		justify-content: center;
+	}
+	li {
+		list-style-type: none;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 20px;
+		/* identical to box height, or 167% */
+
+		color: #ffffff;
+		margin-right: 10px;
+	}
+}

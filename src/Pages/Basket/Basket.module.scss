@@ -1,0 +1,133 @@
+.all {
+	display: flex;
+	justify-content: space-around;
+}
+.main {
+	background: rgba(176, 142, 173, 1);
+	max-width: 800px;
+	width: 100%;
+	padding: 20px;
+	margin: 40px;
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Cormorant Garamond';
+	border-radius: 7px;
+
+	h3 {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.subtitle {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+		border: 1px solid #e5e5e5;
+
+		img {
+			max-width: 180px;
+			width: 100%;
+			height: 180px;
+			border-radius: 10px;
+		}
+		.card__info {
+			max-width: 500px;
+			width: 100%;
+			border: 1px solid #e5e5e5;
+			padding: 20px;
+			h3 {
+				font-size: 24px;
+				text-align: start;
+			}
+
+			p {
+				font-size: 18px;
+				padding: 10px;
+			}
+			span {
+				font-size: 20px;
+			}
+			.quantity {
+				height: 31px;
+				font-size: 13px;
+				line-height: 29px;
+				max-width: 75px;
+				width: 100%;
+				border-radius: 7px;
+				background: #f0f2f2;
+				border: 1px solid #f0f2f2;
+				font-size: 13px;
+				line-height: 29px;
+				font-family: 'Cormorant Garamond';
+				padding-bottom: 5px;
+			}
+			.edit {
+				background: none;
+				border-left: 1px solid #afb4b4;
+				border-right: 1px solid #afb4b4;
+				border-top: none;
+				border-bottom: none;
+				margin-left: 15px;
+				color: #007185;
+				font-family: 'Amazon Ember l';
+				padding-left: 10px;
+				padding-right: 10px;
+				padding-bottom: 5px;
+			}
+		}
+	}
+}
+
+.subtotal {
+	max-width: 300px;
+	width: 100%;
+	height: 150px;
+	background: rgba(214, 187, 211, 1);
+	padding: 25px 23px 15px;
+	margin: 20px 20px 20px 0;
+	border-radius: 7px;
+	font-family: 'Cormorant Garamond';
+	h3 {
+		font-size: 18px;
+		line-height: 24px;
+		font-family: 'Cormorant Garamond';
+		margin-bottom: 4px;
+
+		span {
+			font-family: 'Cormorant Garamond';
+			font-weight: 700;
+		}
+	}
+	.checkbox {
+		display: flex;
+		justify-content: flex-start;
+		padding-left: 15px;
+
+		input {
+			max-width: 13px;
+			width: 13px;
+			height: 13px;
+			margin-right: 5px;
+		}
+		p {
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 500;
+		}
+	}
+	button {
+		max-width: 258px;
+		width: 100%;
+		height: 29px;
+		background: var(--text-pink);
+		border: none;
+		outline: none;
+		border-radius: 7px;
+		cursor: pointer;
+		font-size: 14px;
+		line-height: 19px;
+		font-family: 'Amazon Ember l';
+		margin-top: 20px;
+		padding: 1px 6px;
+	}
+}

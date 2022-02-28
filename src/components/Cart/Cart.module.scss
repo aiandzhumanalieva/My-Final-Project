@@ -1,0 +1,64 @@
+.cart__wrapper {
+	width: clamp(200px, 50%, 377px);
+	margin-right: 1.5rem;
+	border-radius: 0.475rem;
+	margin-bottom: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	.cart__top {
+		img {
+			max-width: 377px;
+			width: 100%;
+			object-fit: contain;
+			height: 377px;
+		}
+	}
+	.cart__bottom {
+		padding-top: 0.875rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.cart__title {
+			font-family: Cormorant Garamond;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 24px;
+			line-height: 30px;
+			/* identical to box height, or 125% */
+
+			text-align: center;
+
+			color: #5f4d5d;
+		}
+		.cart__price {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 17px;
+			/* identical to box height, or 109% */
+			margin-top: 10px;
+			text-align: center;
+
+			color: #b0b0b0;
+		}
+		.cart__add {
+			width: 50%;
+			cursor: pointer;
+			height: 1.5rem;
+			background: var(--text-pink);
+			border: 1px solid transparent;
+			font-size: 1rem;
+			font-weight: 700;
+			margin-top: 1rem;
+			border-radius: 0.275rem;
+			transition: 0.5s all ease-in-out;
+			color: #b0b0b0;
+			align-self: center;
+			&:hover {
+				background: var(--text-grey);
+			}
+		}
+	}
+}

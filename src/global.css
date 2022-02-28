@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	min-width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: 'Amazon Ember b';
+}
+input {
+	border: none;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+:root {
+	/* background */
+	--body-bg: rgba(255, 255, 255, 1);
+	/* color text */
+	--text-pink: rgba(176, 142, 173, 1);
+	--text-grey: rgba(95, 77, 93, 1);
+}
+
+.container {
+	max-width: 1400px;
+	width: 100%;
+}
+.cart {
+	margin-top: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}

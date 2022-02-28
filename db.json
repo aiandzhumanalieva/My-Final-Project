@@ -1,0 +1,39 @@
+[
+	{
+		"id": 1,
+		"title": "Plated Cushion",
+		"price": 19.99,
+		"image": "https://i.ibb.co/mtJStpW/cushion1.jpg"
+	},
+
+	{
+		"id": 2,
+		"title": "Silver Cushion",
+		"price": 25,
+		"image": "https://i.ibb.co/4g8YH0g/cushion2.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Deep Blue Cushion",
+		"price": 22,
+		"image": "https://i.ibb.co/DWCBq5p/cushion3.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Pink Cushion",
+		"price": 19.99,
+		"image": "https://i.ibb.co/wywFbdf/cushion4.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Black Cushion",
+		"price": 19,
+		"image": "https://i.ibb.co/ZY3hzdY/cushion5.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Green Cushion",
+		"price": 29.99,
+		"image": "https://i.ibb.co/WKSwvXM/cushion6.jpg"
+	}
+]
